@@ -1,6 +1,6 @@
 # Tên đề tài: Xây dựng Website giới thiệu khách sạn và đặt phòng trực tuyến
 
-- Công nghệ sử dụng: MySQL, PHP, Laravel FrameWork, XAMPP, Bootstrap, NodeJS
+- Công nghệ sử dụng: MySQL, PHP, Laravel FrameWork, XAMPP, Bootstrap, NodeJS, Google Cloud Console
 
 - Lớp: Thiết kế web nâng cao-1-3-23(N02)
 
