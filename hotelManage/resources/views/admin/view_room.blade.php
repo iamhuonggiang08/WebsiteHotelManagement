@@ -43,21 +43,21 @@
                 <table class="table_deg">
 
                     <tr>
-                        <th class="th-deg">Room Title</th>
-                        <th class="th-deg">Description</th>
-                        <th class="th-deg">Price</th>
+                        <th class="th-deg">Loại phòng</th>
+                        <th class="th-deg">Mô tả</th>
+                        <th class="th-deg">Giá</th>
                         <th class="th-deg">Wifi</th>
-                        <th class="th-deg">Room Type</th>
-                        <th class="th-deg">Image</th>
-                        <th class="th-deg">Delete</th>
-                        <th class="th-deg">Update</th>
+                        <th class="th-deg">Loại phòng</th>
+                        <th class="th-deg">Hỉnh ảnh</th>
+                        <th class="th-deg">Xóa</th>
+                        <th class="th-deg">Cập nhật</th>
                     </tr>
 
                     @foreach($data as $data)
                     <tr>
                         <td>{{$data->room_title}}</td>
                         <td>{!! Str::limit($data->description,150) !!}</td>
-                        <td>{{$data->price}}$</td>
+                        <td>{{$data->price}}₫</td>
                         <td>{{$data->wifi}}</td>
                         <td>{{$data->room_type}}</td>
 
@@ -66,11 +66,11 @@
                         </td>
 
                         <td>
-                            <a onclick="return confirm('Are you sure to delete this ');" class="btn btn-danger" href="{{url('room_delete',$data->id)}}">Delete</a>
+                            <a onclick="return confirm('Are you sure to delete this ');" class="btn btn-danger" href="{{url('room_delete',$data->id)}}">Xóa</a>
                         </td>
 
                         <td>
-                            <a class="btn btn-warning" href="{{url('room_update',$data->id)}}">Update</a>
+                            <a class="btn btn-warning" href="{{url('room_update',$data->id)}}">Cập nhật</a>
                         </td>
 
                     </tr>

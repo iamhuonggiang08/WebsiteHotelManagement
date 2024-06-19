@@ -43,11 +43,11 @@
            <table class="table_deg">
 
             <tr>
-                <th class="th-deg">Name</th>
+                <th class="th-deg">Tên</th>
                 <th class="th-deg">Email</th>
-                <th class="th-deg">Phone</th>
-                <th class="th-deg">Message</th>
-                <th class="th-deg">Send Email</th>
+                <th class="th-deg">Số điện thoại</th>
+                <th class="th-deg">Tin nhắn</th>
+                <th class="th-deg">Gửi email</th>
             </tr>
 
             @foreach($data as $data)

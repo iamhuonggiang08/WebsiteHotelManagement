@@ -4,7 +4,7 @@
                <div class="col-md-12">
                   <div class="titlepage">
                      <h2>Blog</h2>
-                     <p>Lorem Ipsum available, but the majority have suffered </p>
+                     <p>Một số đánh giá của khách hàng đã trải nghiệm dịch vụ của chúng tôi </p>
                   </div>
                </div>
             </div>
@@ -15,9 +15,9 @@
                         <figure><img src="images/blog1.jpg" alt="#"/></figure>
                      </div>
                      <div class="blog_room">
-                        <h3>Bed Room</h3>
-                        <span>The standard chunk </span>
-                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generatorsIf you are   </p>
+                        <h3>Phòng thường</h3>
+                        <span>Đạt tiêu chuẩn </span>
+                        <p>Phòng thường tại khách sạn Keto mang lại cảm giác ấm cúng và thoải mái với đầy đủ tiện nghi cần thiết. Dịch vụ tuyệt vời và không gian sạch sẽ, lý tưởng cho kỳ nghỉ ngắn ngày. </p>
                      </div>
                   </div>
                </div>
@@ -27,9 +27,9 @@
                         <figure><img src="images/blog2.jpg" alt="#"/></figure>
                      </div>
                      <div class="blog_room">
-                        <h3>Bed Room</h3>
-                        <span>The standard chunk </span>
-                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generatorsIf you are   </p>
+                        <h3>Phòng sang trọng</h3>
+                        <span>Đạt tiêu chuẩn </span>
+                        <p>Phòng sang trọng của khách sạn Keto được thiết kế tinh tế với nội thất hiện đại và tầm nhìn đẹp. Dịch vụ chu đáo, mang lại trải nghiệm nghỉ dưỡng đẳng cấp. </p>
                      </div>
                   </div>
                </div>
@@ -39,9 +39,9 @@
                         <figure><img src="images/blog3.jpg" alt="#"/></figure>
                      </div>
                      <div class="blog_room">
-                        <h3>Bed Room</h3>
-                        <span>The standard chunk </span>
-                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generatorsIf you are   </p>
+                        <h3>Phòng tổng thống</h3>
+                        <span>Đạt tiêu chuẩn </span>
+                        <p>Phòng tổng thống tại khách sạn Keto là đỉnh cao của sự sang trọng và xa hoa. Không gian rộng rãi, tiện nghi cao cấp và dịch vụ hoàn hảo, đem lại cảm giác hoàng gia cho khách lưu trú.</p>
                      </div>
                   </div>
                </div>

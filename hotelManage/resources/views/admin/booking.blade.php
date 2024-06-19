@@ -43,18 +43,18 @@
             <table class="table_deg">
 
                     <tr>
-                        <th class="th-deg">Room_id</th>
-                        <th class="th-deg">Customer name</th>
+                        <th class="th-deg">Room_ID</th>
+                        <th class="th-deg">Tên khách hàng</th>
                         <th class="th-deg">Email</th>
-                        <th class="th-deg">Phone</th>
-                        <th class="th-deg">Arrival Date</th>
-                        <th class="th-deg">Leaving Date</th>
-                        <th class="th-deg">Status</th>
-                        <th class="th-deg">Room Title</th>
-                        <th class="th-deg">Price</th>
-                        <th class="th-deg">Image</th>
-                        <th class="th-deg">Delete</th>
-                        <th class="th-deg">Status update</th>
+                        <th class="th-deg">Số điện thoại</th>
+                        <th class="th-deg">Ngày check in</th>
+                        <th class="th-deg">Ngày check out</th>
+                        <th class="th-deg">Trạng thái</th>
+                        <th class="th-deg">Loại phòng</th>
+                        <th class="th-deg">Giá</th>
+                        <th class="th-deg">Ảnh</th>
+                        <th class="th-deg">Xóa</th>
+                        <th class="th-deg">Cập nhật trạng thái</th>
                     </tr>
 
                     @foreach($data as $data)
@@ -69,19 +69,19 @@
                         <td>
                             @if($data->status == 'approve')
 
-                            <span style="color: skyblue;">Approved</span>
+                            <span style="color: skyblue;">Xác nhận</span>
 
                             @endif
 
                             @if($data->status == 'rejected')
 
-                            <span style="color: red;">Rejected</span>
+                            <span style="color: red;">Từ chối</span>
 
                             @endif
 
                             @if($data->status == 'waiting')
 
-                            <span style="color: yellow;">Waiting</span>
+                            <span style="color: yellow;">Chờ</span>
 
                             @endif
 
@@ -92,13 +92,13 @@
                             <img style="width: 200!important;" src="/room/{{$data->room->image}}">
                         </td>
                         <td>
-                            <a onclick="return confirm('Are you sure to delete this')" class="btn btn-danger" href="{{url('delete_booking', $data->id)}}">Delete</a>
+                            <a onclick="return confirm('Are you sure to delete this')" class="btn btn-danger" href="{{url('delete_booking', $data->id)}}">Xóa</a>
                         </td>
                         <td>
                             <span style="padding-bottom: 10px;">
-                                <a class="btn btn-success" href="{{url('approve_book', $data->id)}}">Approve</a>
+                                <a class="btn btn-success" href="{{url('approve_book', $data->id)}}">Xác nhận</a>
                             </span>
-                            <a class="btn btn-warning" href="{{url('reject_book', $data->id)}}">Rejected</a>
+                            <a class="btn btn-warning" href="{{url('reject_book', $data->id)}}">Từ chối</a>
                         </td>
                     </tr>
 

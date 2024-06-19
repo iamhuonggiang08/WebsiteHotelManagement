@@ -4,7 +4,7 @@
                <div class="col-md-12">
                   <div class="titlepage">
                      <h2>Our Room</h2>
-                     <p>Lorem Ipsum available, but the majority have suffered </p>
+                     <p>Dưới đây là các phòng của chúng tôi hiện có </p>
                   </div>
                </div>
             </div>
@@ -15,7 +15,7 @@
                <div class="col-md-4 col-sm-6">
                   <div id="serv_hover"  class="room">
                      <div class="room_img">
-                        <figure><img style="height: 200px; width: 350px" src="room/{{$rooms->image}}" alt="#"/></figure>
+                        <figure><img style="height: auto; max-width: 100%" src="room/{{$rooms->image}}" alt="#"/></figure>
                      </div>
                      <div class="bed_room">
                         <h3>{{$rooms->room_title}}</h3>

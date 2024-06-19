@@ -41,7 +41,7 @@
                <div class="col-md-12">
                   <div class="titlepage">
                      <h2>Our Room</h2>
-                     <p>Lorem Ipsum available, but the majority have suffered </p>
+                     <p>Dưới đây là các phòng của chúng tôi hiện có </p>
                   </div>
                </div>
             </div>
@@ -51,7 +51,7 @@
                <div class="col-md-8">
                   <div id="serv_hover"  class="room">
                      <div style="padding:20px;" class="room_img">
-                        <figure><img style="height: 300px; width: 800px" src="/room/{{$room->image}}" alt="#"/></figure>
+                        <figure><img style="max-width: 100%; height: auto;" src="/room/{{$room->image}}" alt="#"/></figure>
                      </div>
                      <div class="bed_room">
                         <h3>{{$room->room_title}}</h3>
@@ -60,9 +60,9 @@
 
                         <h4 style="padding:12px;">Free wifi: {{$room->wifi}}</h4>
 
-                        <h4 style="padding:12px;">Room Type: {{$room->room_type}}</h4>
+                        <h4 style="padding:12px;">Dạng phòng: {{$room->room_type}}</h4>
 
-                        <h3 style="padding:12px;">Price: {{$room->price}}</h3>
+                        <h3 style="padding:12px;">Giá: {{$room->price}}</h3>
                      </div>
                   </div>
                </div>

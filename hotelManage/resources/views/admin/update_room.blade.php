@@ -37,19 +37,19 @@
 
                 <div class="div_center">
 
-                    <h1 style="font-size: 30px; font-weight: bold;">Update Rooms</h1>
+                    <h1 style="font-size: 30px; font-weight: bold;">Cập nhật phòng</h1>
 
                     <form action="{{url('edit_room', $data->id)}}" method="Post" enctype="multipart/form-data">
 
                         @csrf
 
                         <div class="div_deg">
-                            <label>Room Title</label>
+                            <label>Loại phòng</label>
                             <input type="text" name="title" value="{{$data->room_title}}">
                         </div>
 
                         <div class="div_deg">
-                            <label>Description</label>
+                            <label>Mô tả</label>
 
                             <textarea name="description" >{{$data->description}}
                             </textarea>
@@ -57,20 +57,20 @@
                         </div>
 
                         <div class="div_deg">
-                            <label>Price</label>
+                            <label>Giá</label>
                             <input type="number" name="price" value="{{$data->price}}">
                         </div>
 
                         <div class="div_deg">
-                            <label>Room Type</label>
+                            <label>Loại phòng</label>
 
                             <select name="type">
 
                                 <option selected value="{{$data->room_type}}">{{$data->room_type}}</option>
 
-                                <option value="regular">Regular</option>
-                                <option value="premium">Premium</option>
-                                <option value="deluxe">Deluxe</option>
+                                <option value="regular">Thường</option>
+                                <option value="premium">Sang trọng</option>
+                                <option value="deluxe">Tổng thống</option>
 
                             </select>
                         </div>
@@ -82,19 +82,19 @@
 
                             <option selected value="{{$data->wifi}}">{{$data->wifi}}</option>
 
-                                <option selected value="yes">Yes</option>
-                                <option value="no">No</option>
+                                <option selected value="yes">Có</option>
+                                <option value="no">Không</option>
 
                             </select>
                         </div>
 
                         <div class="div_deg" >
-                            <label>Current Image</label>
+                            <label>Hình ảnh</label>
                             <img style="margin: auto;" width="100" src="/room/{{$data->image}}" alt="">
                         </div>
 
                         <div class="div_deg">
-                            <label>Upload Image</label>
+                            <label>Tải ảnh lên</label>
                             <input type="file" name="image">
                         </div>
 

@@ -1,5 +1,5 @@
- <!-- header inner -->
- <div class="header">
+<!-- header inner -->
+<div class="header">
             <div class="container">
                <div class="row">
                   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
