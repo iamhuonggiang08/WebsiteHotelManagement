@@ -12,7 +12,7 @@
         <!-- Sidebar Navidation Menus-->
          <span class="heading" style="color: white;">Main</span>
         <ul class="list-unstyled">
-                <li class="active"><a href="index.html"> <i class="icon-home"></i>Trang chủ </a></li>
+                <li class="active"><a href="{{url('home')}}"> <i class="icon-home"></i>Trang chủ </a></li>
 
                 <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Phòng </a>
                   <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
