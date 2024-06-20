@@ -13,4 +13,4 @@ Trong bối cảnh ngành du lịch và khách sạn không ngừng phát triể
 
 Website không chỉ là nơi giới thiệu các khách sạn với đầy đủ thông tin chi tiết về dịch vụ, tiện nghi, và hình ảnh mà còn là công cụ hữu ích giúp khách hàng tiết kiệm thời gian và công sức khi lên kế hoạch cho chuyến đi của mình. Thông qua việc tích hợp các công nghệ hiện đại, dự án sẽ mang lại những trải nghiệm tốt nhất cho người dùng, từ giao diện thân thiện, chức năng tìm kiếm nâng cao, cho đến hệ thống thanh toán an toàn và nhanh chóng.
 
-Liên kết báo cáo: https://docs.google.com/document/d/16ZqNoE1DVUpVDm3m269Rlq3A27fjK28TnqogaAvVYM4/edit?usp=sharing
+Liên kết báo cáo: https://docs.google.com/document/d/1o08q8ksTsXnONl3x8TsFO-O1x9n6YPHw/edit?usp=sharing&ouid=109126886787987350040&rtpof=true&sd=true
